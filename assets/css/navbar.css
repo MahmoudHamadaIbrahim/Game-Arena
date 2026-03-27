@@ -1,0 +1,36 @@
+.active {
+    color: var(--main-color) !important;
+}
+
+.navbar-dark {
+    background-color: var(--bs-body-bg) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.125) !important;
+
+}
+
+nav ul li a,
+nav form a {
+    color: rgba(255, 255, 255, 0.9) !important;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: var(--main-color) !important;
+
+}
+
+.navbar-toggler i {
+    color: #fff;
+    font-size: 24px;
+
+}
+
+.navbar-toggler:hover i {
+    color: var(--main-color);
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+}

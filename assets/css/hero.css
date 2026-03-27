@@ -1,0 +1,38 @@
+#hero {
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 5px;
+
+}
+
+#hero .layer {
+    background-color: rgb(0 0 0 /.87);
+    padding-top: 5px;
+}
+
+.hero-img-container {
+    background-image: linear-gradient(to right, var(--main-color), rgb(74, 222, 128));
+    border-radius: 25px;
+}
+
+.hero-img-container img {
+    border-radius: 20px;
+}
+
+.hero-img-text {
+    bottom: -20px;
+    left: -20px;
+    background-color: var(--main-bg-color);
+    border-radius: 10px;
+}
+
+.hero-img-text p:first-child {
+    font-size: .75rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.hero-img-text p:last-child {
+    font-size: 1.125rem;
+}

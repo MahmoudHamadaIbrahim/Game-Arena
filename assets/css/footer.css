@@ -1,0 +1,42 @@
+footer {
+    padding-block: 10px;
+    background-color: black;
+}
+
+footer .container-xl {
+    margin-block: 50px;
+}
+
+footer :is(h2, h4) {
+    margin-bottom: 20px;
+    font-size: 1.25rem !important;
+}
+
+footer h4 {
+    font-family: 'Days one', sans-serif;
+    font-weight: bold;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+footer :is(a, p) {
+    text-decoration: none;
+    color: #cbd5e0b0;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--main-color);
+}
+
+footer .social a {
+    font-size: 1.25rem !important;
+}
+
+footer .footer-low {
+    margin-top: 20px;
+    border-top: 1px solid #cbd5e033;
+    padding-top: 30px;
+}

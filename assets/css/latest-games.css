@@ -1,0 +1,51 @@
+.slid-img .inner {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+    border-radius: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.slid-img .inner img {
+    aspect-ratio: 4 / 3;
+    transform-origin: center center;
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.3, 1);
+}
+
+.slid-img .inner :is(.slid-content, .slid-tags) {
+    position: absolute;
+    left: 0;
+    transition: all 0.4s ease;
+}
+
+.slid-img .inner .slid-content {
+    bottom: -100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, transparent 50%, var(--main-color));
+}
+
+.slid-img .inner .slid-content h3 {
+    font-size: 1.125rem;
+}
+
+.slid-img .inner .slid-tags {
+    top: -3rem;
+    left: 1rem;
+    font-size: 1rem;
+}
+
+.slid-img .inner:hover {
+    border-color: var(--main-color);
+}
+
+.slid-img .inner:hover img {
+    transform: scale(1.08);
+}
+
+.slid-img .inner:hover .slid-content {
+    bottom: 0;
+}
+
+.slid-img .inner:hover .slid-tags {
+    top: 1rem;
+}

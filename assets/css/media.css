@@ -1,0 +1,142 @@
+@media (min-width: 300px) {
+    #hero .container-md {
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    nav form button {
+        width: 100%;
+    }
+
+    #hero h1 {
+        font-size: 2.25rem !important;
+    }
+
+    #hero .hero-text p {
+        font-size: .875rem !important;
+    }
+
+    #hero .hero-img img {
+        height: 16rem;
+    }
+
+    #what-we-do::before {
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 576px) {
+
+    .btn-outline-success {
+        font-size: 1rem !important;
+    }
+
+    #hero h1 {
+        font-size: 3rem !important;
+    }
+
+    #hero .hero-text p {
+        font-size: 1rem !important;
+    }
+
+    #hero .hero-img img {
+        height: 20rem;
+    }
+
+    .hero-img-text p:last-child {
+        font-size: 1.25rem;
+    }
+
+    .title h1 {
+        font-size: 2.25rem;
+    }
+
+    .title p::before {
+        left: -80px;
+        transform: translateY(-50%);
+        width: 4rem;
+
+    }
+
+    .title p::after {
+        right: -80px;
+        transform: translateY(-50%);
+        width: 4rem;
+
+    }
+
+    #what-we-do .title h1,
+    #what-we-do .title h2 {
+        font-size: 1.875rem;
+    }
+
+
+
+}
+
+@media (min-width: 768px) {
+    .title h1 {
+        font-size: 3rem;
+    }
+
+    .title p {
+        font-size: 1rem;
+    }
+
+    #what-we-do .title h1,
+    #what-we-do .title h2 {
+        font-size: 2.25rem;
+    }
+
+    #what-we-do::before {
+        width: 70%;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .btn-outline-success {
+        font-size: 1.125rem !important;
+    }
+
+    .btn-outline-secondary {
+        font-size: 1.25rem !important;
+    }
+
+    #hero {
+        height: 100vh;
+    }
+
+    #hero .container-md {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    #hero h1 {
+        font-size: 3.75rem !important;
+    }
+
+    #hero .hero-img img {
+        height: 24rem;
+    }
+
+    #what-we-do .title h1,
+    #what-we-do .title h2 {
+        font-size: 3rem;
+    }
+
+    .what-we-do-content .item .inner .icon {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .what-we-do-content .item .inner h3 {
+        font-size: 1.25rem;
+    }
+
+    #what-we-do::before {
+        width: 35%;
+    }
+}
