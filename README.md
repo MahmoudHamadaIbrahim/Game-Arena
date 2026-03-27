@@ -30,3 +30,7 @@ Font Awesome 7: High-quality icons for an authentic gaming look.
 
 Google Fonts: Utilizing Chakra Petch for body text and Days One for headers.
 
+🚀 View Project
+
+https://game-arena-mahmoud-hamada.vercel.app
+
